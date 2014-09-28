@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>5B461E41-0B2D-447D-8D95-78176D8531A9</string>
+	<key>IDESourceControlProjectName</key>
+	<string>helloWorld</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>AE2A2DBF-FE4E-4AED-8884-4B3C94043335</key>
+		<string>https://github.com/kaavie/objectCStudy.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>helloWorld.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>AE2A2DBF-FE4E-4AED-8884-4B3C94043335</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/kaavie/objectCStudy.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>AE2A2DBF-FE4E-4AED-8884-4B3C94043335</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>AE2A2DBF-FE4E-4AED-8884-4B3C94043335</string>
+			<key>IDESourceControlWCCName</key>
+			<string>objectCStudy</string>
+		</dict>
+	</array>
+</dict>
+</plist>

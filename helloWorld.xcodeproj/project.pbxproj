@@ -12,6 +12,16 @@
 		0958306119D7C19F004AF9EA /* helloWorld.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0958306019D7C19F004AF9EA /* helloWorld.1 */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		0958308519D7F822004AF9EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0958308119D7F822004AF9EA /* Calculator.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 0958307019D7F822004AF9EA;
+			remoteInfo = Calculator;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		0958305419D7C19F004AF9EA /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -31,6 +41,7 @@
 		0958305C19D7C19F004AF9EA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0958305F19D7C19F004AF9EA /* helloWorld-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "helloWorld-Prefix.pch"; sourceTree = "<group>"; };
 		0958306019D7C19F004AF9EA /* helloWorld.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = helloWorld.1; sourceTree = "<group>"; };
+		0958308119D7F822004AF9EA /* Calculator.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Calculator.xcodeproj; path = Calculator/Calculator.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +59,7 @@
 		0958304D19D7C19F004AF9EA = {
 			isa = PBXGroup;
 			children = (
+				0958308119D7F822004AF9EA /* Calculator.xcodeproj */,
 				0958305B19D7C19F004AF9EA /* helloWorld */,
 				0958305819D7C19F004AF9EA /* Frameworks */,
 				0958305719D7C19F004AF9EA /* Products */,
@@ -86,6 +98,14 @@
 				0958305F19D7C19F004AF9EA /* helloWorld-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0958308219D7F822004AF9EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0958308619D7F822004AF9EA /* Calculator */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,12 +147,28 @@
 			mainGroup = 0958304D19D7C19F004AF9EA;
 			productRefGroup = 0958305719D7C19F004AF9EA /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 0958308219D7F822004AF9EA /* Products */;
+					ProjectRef = 0958308119D7F822004AF9EA /* Calculator.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				0958305519D7C19F004AF9EA /* helloWorld */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		0958308619D7F822004AF9EA /* Calculator */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = Calculator;
+			remoteRef = 0958308519D7F822004AF9EA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0958305219D7C19F004AF9EA /* Sources */ = {
@@ -253,6 +289,7 @@
 				0958306619D7C19F004AF9EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
