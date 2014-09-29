@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 @interface Calculator:NSObject
-    -(void) setNum :(double) value;
+    -(void) setNum :(double) value;//这里容易犯错，写成（参数） 的形式，要注意。
     -(void) clear ;
     -(void) add :(double) value;
     -(void) substract : (double) value;
@@ -72,6 +72,32 @@ int main(int argc, const char * argv[])
         [ca print];
         [ca substract:800];
         [ca print];
+        
+        int i;
+        for(i=0;i<9;i++){//在objective c中  ＋＋i跟i++的区别跟在java中是一样的
+            if (i==0) {
+                continue;
+            }
+            if (i==7) {
+                break;
+                
+            }
+            NSLog(@"the num is %i",i);
+            if(i==8)
+            NSLog(@"the num is end");
+        }
+        i=1;
+        NSLog(@"the num ++ is :%i",i++);
+        NSLog(@"the num is :%i",i);
+        i=1;
+        NSLog(@"the ++ num is :%i",++i);
+        NSLog(@"the print is end");
+        
+        
+        
+        NSLog(@"please enter the num you want!");
+        scanf("%i",&i);
+        NSLog(@"the num you enter is :%i",i);
     }
     return 0;
 }

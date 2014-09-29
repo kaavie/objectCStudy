@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		094D24EB19D8FFD500046F07 /* StaticTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 094D24EA19D8FFD500046F07 /* StaticTest.m */; };
+		094D24EF19D9429100046F07 /* TestTypeDef.m in Sources */ = {isa = PBXBuildFile; fileRef = 094D24EE19D9429100046F07 /* TestTypeDef.m */; };
 		0958305A19D7C19F004AF9EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0958305919D7C19F004AF9EA /* Foundation.framework */; };
 		0958305D19D7C19F004AF9EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0958305C19D7C19F004AF9EA /* main.m */; };
 		0958306119D7C19F004AF9EA /* helloWorld.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0958306019D7C19F004AF9EA /* helloWorld.1 */; };
@@ -36,6 +38,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		094D24E919D8FFD500046F07 /* StaticTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StaticTest.h; sourceTree = "<group>"; };
+		094D24EA19D8FFD500046F07 /* StaticTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StaticTest.m; sourceTree = "<group>"; };
+		094D24ED19D9429100046F07 /* TestTypeDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestTypeDef.h; sourceTree = "<group>"; };
+		094D24EE19D9429100046F07 /* TestTypeDef.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestTypeDef.m; sourceTree = "<group>"; };
 		0958305619D7C19F004AF9EA /* helloWorld */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = helloWorld; sourceTree = BUILT_PRODUCTS_DIR; };
 		0958305919D7C19F004AF9EA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0958305C19D7C19F004AF9EA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -86,6 +92,10 @@
 			isa = PBXGroup;
 			children = (
 				0958305C19D7C19F004AF9EA /* main.m */,
+				094D24ED19D9429100046F07 /* TestTypeDef.h */,
+				094D24EE19D9429100046F07 /* TestTypeDef.m */,
+				094D24E919D8FFD500046F07 /* StaticTest.h */,
+				094D24EA19D8FFD500046F07 /* StaticTest.m */,
 				0958306019D7C19F004AF9EA /* helloWorld.1 */,
 				0958305E19D7C19F004AF9EA /* Supporting Files */,
 			);
@@ -176,6 +186,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0958305D19D7C19F004AF9EA /* main.m in Sources */,
+				094D24EB19D8FFD500046F07 /* StaticTest.m in Sources */,
+				094D24EF19D9429100046F07 /* TestTypeDef.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

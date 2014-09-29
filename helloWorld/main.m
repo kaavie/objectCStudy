@@ -39,7 +39,7 @@
 
 
 
-int main(int argc, const char * argv[])
+/*int main(int argc, const char * argv[])
 {
 
     @autoreleasepool {
@@ -47,12 +47,10 @@ int main(int argc, const char * argv[])
         
         myFraction=[Fraction alloc];//分配内存
         myFraction=[myFraction init];//  初始化对象实例
-        /*这两步可以用以下两种方法来替代：
-         1、[[Fraction alloc] init]
-         2、[Fraction new]
-        
-         
-         */
+        ///这两步可以用以下两种方法来替代：
+        // 1、[[Fraction alloc] init]
+        // 2、[Fraction new]
+ 
         [myFraction setNumerator:1];//调用方法，格式为［类名 方法名:参数］
         [myFraction setDenominator:1];
         
@@ -67,5 +65,5 @@ int main(int argc, const char * argv[])
         
     }
     return 0;
-}
+}*/
 
