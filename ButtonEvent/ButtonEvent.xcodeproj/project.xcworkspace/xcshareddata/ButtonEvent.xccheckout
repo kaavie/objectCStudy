@@ -5,20 +5,20 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>F3D2737F-B90B-4A8E-A310-DB618ED5FDFF</string>
+	<string>00324F48-9D27-4F5C-AF0A-89864EF5892D</string>
 	<key>IDESourceControlProjectName</key>
-	<string>helloWorld</string>
+	<string>ButtonEvent</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>AE2A2DBF-FE4E-4AED-8884-4B3C94043335</key>
 		<string>https://github.com/kaavie/objectCStudy.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>helloWorld.xcodeproj/project.xcworkspace</string>
+	<string>ButtonEvent/ButtonEvent.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>AE2A2DBF-FE4E-4AED-8884-4B3C94043335</key>
-		<string>../..</string>
+		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/kaavie/objectCStudy.git</string>
